@@ -1,8 +1,8 @@
 names_arr = %w[Edsger, Ada, Charles, Alan, Grace, Linus, Matz]
 
-# def badge_maker (name)
-#   "Hello, my name is #{name}."
-# end
+def badge_maker (name)
+  "Hello, my name is #{name}."
+end
 
 def batch_badge_creator (names_arr)
   new_array = []
