@@ -20,6 +20,6 @@ def assign_rooms (names_arr)
   new_arr
 end
 
-def printer
-  assign_rooms
+def printer (badge)
+  assign_rooms(names_arr)
 end
