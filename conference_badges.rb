@@ -20,7 +20,12 @@ def assign_rooms (names_arr)
   new_arr
 end
 
-def printer (names_arr)
-  batch_badge_creator (names_arr)
-  assign_rooms(names_arr)
-end
+def printer(array)
+  batch_badge_creator(array).each do |id|
+    puts id
+  end
+
+  assign_rooms(array).each do |id|
+    puts id
+  end
+end 
