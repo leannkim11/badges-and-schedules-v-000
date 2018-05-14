@@ -4,8 +4,11 @@ names_arr = %w[Edsger, Ada, Charles, Alan, Grace, Linus, Matz]
 #   "Hello, my name is #{name}."
 # end
 
-def batch_badge_creator (attendee)
-  "Hello, my name is #{attendee}."
+def batch_badge_creator (names_arr)
+  new_array = []
+  names_arr.each do |x|
+  new_array << "Hello, my name is #{x}."
+  end
 end
 
 def assign_rooms (names_arr)
