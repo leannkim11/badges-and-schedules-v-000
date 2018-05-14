@@ -15,7 +15,7 @@ end
 def assign_rooms (names_arr)
   new_arr = []
   names_arr.each_with_index do|n, index|
-    new_arr << "Hello, #{n}! You'll be assigned to room #{index}!"
+    new_arr << "Hello, #{n}! You'll be assigned to room #{index + 1}!"
   end
   new_arr
 end
