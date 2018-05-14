@@ -1,7 +1,7 @@
 names_arr = %w[Edsger, Ada, Charles, Alan, Grace, Linus, Matz]
 
 def badge_maker (names_arr)
-  names_arr.map do|x|
+  names_arr.each do|x|
     puts "Hello, my name is #{x}."
   end
 end
