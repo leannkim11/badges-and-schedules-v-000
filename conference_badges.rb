@@ -1,11 +1,11 @@
 names_arr = %w[Edsger, Ada, Charles, Alan, Grace, Linus, Matz]
 
-def badge_maker (name)
-  "Hello, my name is #{name}."
-end
+# def badge_maker (name)
+#   "Hello, my name is #{name}."
+# end
 
 def batch_badge_creator (attendee)
-    "Hello, my name is #{attendee}."
+  "Hello, my name is #{attendee}."
 end
 
 def assign_rooms (names_arr)
